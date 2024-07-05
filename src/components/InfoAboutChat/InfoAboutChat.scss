@@ -1,4 +1,45 @@
 .info-about-chat {
-  height: 50px;
+  height: 80px;
   border-bottom: 1px solid #828282;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 25px 15px 25px;
+  align-items: center;
+}
+.info-about-chat-left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  .name-chat {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+  }
+  .btn-favorite img {
+    height: 18px;
+  }
+}
+.info-about-chat-right {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  .usersCounts {
+    display: flex;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #a4a4a4;
+    text-align: center;
+  }
+  .searchMessages {
+    width: 241px;
+    height: 33px;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #a4a4a4;
+    border-radius: 5px;
+    border-color: #a4a4a4;
+    border-width: 1px;
+  }
 }
