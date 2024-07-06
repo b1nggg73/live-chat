@@ -1,19 +1,11 @@
 import React from 'react';
 import './WrapperChat.scss';
-import Post from '../Post/Post';
+import Posts from '../Posts/Posts';
 
-const WrapperChat = () => {
+const WrapperChat = ({ posts }) => {
   return (
     <div className="wrapper-chat">
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
+      <Posts posts={posts} />
     </div>
   );
 };
